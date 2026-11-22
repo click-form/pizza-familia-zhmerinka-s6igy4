@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню та страви — Pizza Familia Жмеринка</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Pizza <span>Familia</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="active" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" aria-label="Відчинити меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="services_page_title">Наше меню та страви</h1>
+                <p data-i18n="services_page_subtitle">Справжні італійські рецепти та свіжі інгредієнти у Жмеринці</p>
+            </div>
+        </section>
+
+        <section class="menu-categories section-padding">
+            <div class="container">
+                <div class="menu-grid">
+                    <div class="menu-category-card">
+                        <div class="menu-cat-icon">🍕</div>
+                        <h3 data-i18n="cat_pizza_title">Фірмова піца</h3>
+                        <p data-i18n="cat_pizza_desc">Соковита та ароматна піца на тонкому тісті з різноманітними начинками, приготована за найкращими ітралійськими рецептами з використанням свіжих інгредієнтів.</p>
+                    </div>
+                    <div class="menu-category-card">
+                        <div class="menu-cat-icon">🍟</div>
+                        <h3 data-i18n="cat_snacks_title">Закуски та ситні страви</h3>
+                        <p data-i18n="cat_snacks_desc">Широкий вибір апетитних закусок та ситних страв, які чудово доповнять ваше застілля або стануть чудовим початком обіду.</p>
+                    </div>
+                    <div class="menu-category-card">
+                        <div class="menu-cat-icon">🍰</div>
+                        <h3 data-i18n="cat_desserts_title">Десерти та напої</h3>
+                        <p data-i18n="cat_desserts_desc">Ніжні десерти та освіжаючі напої на будь-який смак, щоб завершити вашу трапезу приємною солодкістю.</p>
+                    </div>
+                </div>
+                
+                <div class="menu-note">
+                    <p data-i18n="menu_note_text">Завітайте до нашого закладу за адресою вулиця Центральна, 6 у Жмеринці, щоб ознайомитися з повним актуальним меню та насолодитися атмосферою.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo">Pizza <span>Familia</span></a>
+                <p data-i18n="footer_slogan">Затишне кафе італійської кухні у Жмеринці.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Нд: 10:00 — 22:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_addr_title">Адреса</h4>
+                <p>вулиця Центральна, 6, Жмеринка, Вінницька область, Україна, 23100</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_social_title">Соціальні мережі</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/p/Pizza-Familia-100063708307436/" target="_blank" rel="noopener">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Pizza Familia. Жмеринка, Україна.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
