@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Familia — Жмеринка</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Pizza <span>Familia</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" aria-label="Відчинити меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg">
+                <img src="images/photo-01.svg" alt="Pizza Familia інтер'єр та страви" loading="eager">
+            </div>
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">Pizza Familia у Жмеринці — затишне місце для всієї родини</h1>
+                <p data-i18n="hero_subtitle">Найсмачніша італійська піца, приємна атмосфера та найкращі моменти разом з близькими у серці Жмеринки.</p>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary" data-i18n="btn_menu">Переглянути меню</a>
+                    <a href="contacts.html" class="btn btn-secondary" data-i18n="btn_contacts">Знайти нас</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-i18n="features_title">Чому обирають нас</h2>
+                    <p data-i18n="features_subtitle">Ми створюємо атмосферу тепла та неперевершеного смаку</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🍕</div>
+                        <h3 data-i18n="feat_1_title">Справжня піца</h3>
+                        <p data-i18n="feat_1_desc">Соковита та ароматна піца на тонкому тісті з найкращих інгредієнтів.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👨‍👩‍👧‍👦</div>
+                        <h3 data-i18n="feat_2_title">Сімейний затишок</h3>
+                        <p data-i18n="feat_2_desc">Ідеальне місце для сімейних обідів, дружніх зустрічей та романтичних вечорів.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 data-i18n="feat_3_title">Високий сервіс</h3>
+                        <p data-i18n="feat_3_desc">Дбаємо про кожного відвідувача, забезпечуючи швидку подачу та приємні ціни.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner section-padding">
+            <div class="container cta-container">
+                <div class="cta-text">
+                    <h2 data-i18n="cta_title">Завітайте до нас сьогодні!</h2>
+                    <p data-i18n="cta_desc">вулиця Центральна, 6, Жмеринка. Працюємо щодня з 10:00 до 22:00.</p>
+                </div>
+                <a href="contacts.html" class="btn btn-primary" data-i18n="cta_btn">Контакти та карта</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="index.html" class="logo">Pizza <span>Familia</span></a>
+                <p data-i18n="footer_slogan">Затишне кафе італійської кухні у Жмеринці.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>Пн-Нд: 10:00 — 22:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_addr_title">Адреса</h4>
+                <p>вулиця Центральна, 6, Жмеринка, Вінницька область, Україна, 23100</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_social_title">Соціальні мережі</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/p/Pizza-Familia-100063708307436/" target="_blank" rel="noopener">Facebook</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Pizza Familia. Жмеринка, Україна.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
